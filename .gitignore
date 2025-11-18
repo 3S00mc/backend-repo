@@ -1,9 +1,10 @@
-# IDEs
-.vscode/
-.idea/
-*.iml
+# na raiz do backend-repo
+@"
+# IntelliJ / IDEA
+/.idea/
+/*.iml
 
-# Java
+# Java / JVM
 target/
 build/
 *.class
@@ -11,15 +12,17 @@ build/
 # Node
 node_modules/
 
-# SO
+# OS
 .DS_Store
 Thumbs.db
 
-# Logs
+# logs & env
 *.log
-/projects/media-player/
+.env
+"@ | Out-File -Encoding UTF8 .gitignore -Append
 
-# IntelliJ / IDEA
-.idea/
-*.iml
-
+# build outputs
+/out/
+target/
+build/
+bin/
