@@ -1,28 +1,25 @@
-# na raiz do backend-repo
-@"
-# IntelliJ / IDEA
+# IntelliJ
 /.idea/
 /*.iml
 
-# Java / JVM
+# Build outputs
+/out/
 target/
 build/
-*.class
+bin/
 
-# Node
-node_modules/
+# Maven
+/.mvn/
+dependency-reduced-pom.xml
+release.properties
 
 # OS
 .DS_Store
 Thumbs.db
 
-# logs & env
+# Logs/env
 *.log
 .env
-"@ | Out-File -Encoding UTF8 .gitignore -Append
 
-# build outputs
-/out/
-target/
-build/
-bin/
+# Java
+*.class
