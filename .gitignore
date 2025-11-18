@@ -17,3 +17,9 @@ Thumbs.db
 
 # Logs
 *.log
+/projects/media-player/
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+
