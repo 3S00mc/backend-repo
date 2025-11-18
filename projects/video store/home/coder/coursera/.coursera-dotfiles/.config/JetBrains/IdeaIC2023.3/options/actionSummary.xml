@@ -1,0 +1,31 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorBackSpace">
+      <i c="3" l="1722440783130" />
+    </e>
+    <e n="EditorDelete">
+      <i c="21" l="1722440785394" />
+    </e>
+    <e n="EditorDown">
+      <i c="14" l="1722440779308" />
+    </e>
+    <e n="EditorLeft">
+      <i c="7" l="1722440779813" />
+    </e>
+    <e n="EditorRight">
+      <i c="10" l="1722440784441" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1722440624347" />
+    </e>
+    <e n="SaveAll">
+      <i c="4" l="1722441813918" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1722429941491" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="6" l="1722441811359" />
+    </e>
+  </component>
+</application>
