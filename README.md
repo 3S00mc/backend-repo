@@ -10,7 +10,6 @@ Este repositório contém diversos microprojetos usados para estudo de Java e ba
 - [classy-shapes-project](projectsclassy-shapes-project)
 - [coffe-machine](projectscoffe-machine)
 - [media-player](projectsmedia-player)
-- [online-shopping-platform-simulation](projectsonline-shopping-platform-simulation)
 - [schedule](projectsschedule)
 - [superheroes](projectssuperheroes)
 - [video-store](projectsvideo-store)

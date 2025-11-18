@@ -8,6 +8,6 @@ public class Product {
     }
 
     public void displayInfo() {
-        System.out.println("Product: " + name + ", Price: $" + price);
+        System.out.println("Name: " + name + ", Price: " + price);
     }
 }
