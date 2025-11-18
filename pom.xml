@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pedro</groupId>
+    <artifactId>backend-repo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>backend-repo (multi-module)</name>
+    <description>Monorepo multi-module gerado para estudos e microprojetos Java</description>
+
+    <properties>
+        <java.version>17</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>projects/arraycountingvowel</module>
+        <module>projects/bmi-calculator-app-lab</module>
+        <module>projects/classy-shapes-project</module>
+        <module>projects/coffe-machine</module>
+        <module>projects/media-player</module>
+        <module>projects/schedule</module>
+        <module>projects/superheroes</module>
+        <module>projects/online-shopping-platform-simulation</module>
+        <module>projects/sidekick-encapsulation</module>
+        <module>projects/robot-sidekick</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- central place for versions if quiser adicionar dependências compartilhadas -->
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!-- garante configuração do compilador para todos os módulos -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.11.0</version>
+                    <configuration>
+                        <release>${java.version}</release>
+                    </configuration>
+                </plugin>
+
+                <!-- exec plugin padrão (cada módulo pode usar ao rodar) -->
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>3.1.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

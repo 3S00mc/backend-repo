@@ -1,3 +1,5 @@
+package online.shopping.platform.simulation;
+
 public class Product {
     String name;
     double price;
@@ -9,5 +11,9 @@ public class Product {
 
     public void displayInfo() {
         System.out.println("Name: " + name + ", Price: " + price);
+    }
+
+    public void certifiedProduct(){
+        System.out.println("Teste de criação e invocação de Métodos: Produto Certificado!");
     }
 }

@@ -1,3 +1,5 @@
+package online.shopping.platform.simulation;
+
 public class Clothing extends Product{
     String size;
 
