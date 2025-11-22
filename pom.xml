@@ -27,8 +27,6 @@
         <module>projects/schedule</module>
         <module>projects/superheroes</module>
         <module>projects/online-shopping-platform-simulation</module>
-        <module>projects/sidekick-encapsulation</module>
-        <module>projects/robot-sidekick</module>
     </modules>
 
     <dependencyManagement>
