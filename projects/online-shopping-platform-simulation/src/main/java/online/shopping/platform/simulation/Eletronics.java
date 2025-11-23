@@ -8,6 +8,7 @@ public class Eletronics extends Product{
         this.warrantyPeriodInMonths = warrantyPeriodInMonths;
     }
 
+
     @Override
     public void displayInfo() {
         super.displayInfo();

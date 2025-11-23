@@ -10,7 +10,11 @@ public class Main {
 //        laptop.displayInfo();
 //        laptop.certifiedProduct();
 
+//        laptop.getName();
+        System.out.println(laptop.getName());
         shoppingCart.addItem(laptop);
+
+        System.out.println(shirt.getName());
         shoppingCart.addItem(shirt);
     }
 }
