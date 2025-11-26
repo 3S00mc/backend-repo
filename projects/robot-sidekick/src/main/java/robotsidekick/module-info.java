@@ -2,7 +2,7 @@
     - Starter classes: You have four classes in the starter code:
  sidekickencapsulation.SideKick: Contains predefined properties and methods.
  WhatADriver: Initially empty, to be implemented.
- superheroes.sidekickencapsulation.schedule.onlineshoppingplatformsimulation.mediaplayer.classyshapesproject.bmicalculatorapplab.array.counting.vowel.Main: Contains the main() method for user interaction.
+ superheroes.sidekickencapsulation.schedule.onlineshoppingplatformsimulation.mediaplayer.classyshapesproject.bmicalculatorapplab.array.counting.vowel.zoofinalproject.Main: Contains the main() method for user interaction.
  Robot: Target for moving common properties and method.
 
     - Superclass creation:

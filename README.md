@@ -13,6 +13,6 @@ Organizar o Readme pela complexidade dos projetos CONCEITUAL, INICIANTE, INTERME
 - [coffee-machine](projectscoffe-machine)
 - [media-player](projectsmedia-player)
 - [schedule](projectsschedule)
-- [sidekick-encapsulation](projectssidekick-encapsulation)
+- [sidekick-multipleinheritance](projectssidekick-encapsulation)
 - [superheroes](projectssuperheroes)
 - [video-store](projectsvideo-store)

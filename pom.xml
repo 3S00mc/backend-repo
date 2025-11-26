@@ -19,7 +19,7 @@
     </properties>
 
     <modules>
-        <module>projects/arraycountingvowel</module>
+        <module>projects/labtestspackage</module>
         <module>projects/bmi-calculator-app-lab</module>
         <module>projects/classy-shapes-project</module>
         <module>projects/coffe-machine</module>
@@ -27,6 +27,7 @@
         <module>projects/schedule</module>
         <module>projects/superheroes</module>
         <module>projects/online-shopping-platform-simulation</module>
+        <module>zoo-final-project</module>
     </modules>
 
     <dependencyManagement>

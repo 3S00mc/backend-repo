@@ -18,5 +18,5 @@ public class Main {
         library.playMedia(starWars);
         library.playMedia(quatroEstacoes);
         library.playMedia(lordOfTheRings);
-    }
+    } 
 }
